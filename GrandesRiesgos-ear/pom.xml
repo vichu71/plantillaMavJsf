@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>es.cyc.gr</groupId>
+		<artifactId>GrandesRiesgos</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../GrandesRiesgos</relativePath>
+	</parent>
+	<artifactId>GrandesRiesgos-ear</artifactId>
+	<packaging>ear</packaging>
+
+	<name>GrandesRiesgos-ear</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	  <build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-ear-plugin</artifactId>
+				<version>2.10</version>
+				<configuration>
+					<version>6</version>
+					<defaultLibBundleDir>lib</defaultLibBundleDir>
+					<modules>
+						<webModule>
+							<groupId>es.cyc.gr</groupId> 
+							<artifactId>GrandesRiesgos-web</artifactId>
+							<bundleFileName>GrandesRiesgos-web.war</bundleFileName>
+						</webModule>
+					</modules>
+					<generateApplicationXml>false</generateApplicationXml>
+				</configuration>
+			</plugin>
+			<plugin>
+					<artifactId>maven-install-plugin</artifactId>
+					<version>2.4</version>
+					<configuration>
+						<skip>false</skip>
+					</configuration>
+				</plugin>
+		</plugins>
+	</build>
+	<dependencies>
+	<dependency>
+			<groupId>es.cyc.gr</groupId>
+			<artifactId>GrandesRiesgos-web</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<type>war</type>
+		</dependency>
+	
+	</dependencies>
+
+</project>

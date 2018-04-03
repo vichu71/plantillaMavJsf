@@ -1,0 +1,185 @@
+.centered {
+position:center;
+height: 10px;
+margin:0 auto;
+padding: 10% 0;
+}
+
+.ui-widget, .ui-widget .ui-widget {
+font-size: 90% !important;
+}
+.ui-growl {
+    position: fixed;
+    top: 40%;
+    left: 42%;
+    width: 300px;
+    text-align : center;
+}
+.ui-datatable-footer {
+    background: white !important;
+    font-weight: normal;       
+    text-align:left;    
+	
+	color: black;
+	padding:4px 10px;
+	float: left; 
+	
+   	
+}
+
+.ui-fileupload .fileinput-button {
+    background-color: rgba(142, 103, 64, 0.98);
+}
+
+.customHeader th{
+    background-color: black;
+}
+
+.redColoredPanel .ui-panel-titlebar {
+   background: #F2F4F4;
+   color: 	#696969;
+}
+.ui-fontsize130blue {
+	font-size: 130% !important;
+	 color: #3db0d0;
+}
+.ui-fontsize130red {
+	font-size: 130% !important;
+	 color: #DF0101;
+}
+.ui-fontsize130 {
+	font-size: 130% !important;
+}
+.ui-fontsize100 {
+	font-size: 100% !important;
+}
+.ui-fontsize110 {
+	font-size: 110% !important;
+}
+
+.ui-fontsize90 {
+	font-size: 90% !important;
+}
+.ui-custompanelgrid, .ui-custompanelgrid  { 	
+ 	background-color: #F2F4F4 !important;
+ 	color: 	#272727; 	
+	border-collapse: separate;
+    border-spacing: 0;
+    border: 1px dotted #929292;
+	padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    height: 25px;  
+    width: 130px;  
+ }
+ 
+ .ui-custompanelgridUnWidth, .ui-custompanelgridUnWidth  { 	
+ 	background-color: #F2F4F4 !important;
+ 	color: 	#272727; 	
+	border-collapse: separate;
+    border-spacing: 0;
+    border: 1px dotted #929292;
+	padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    height: 25px;  
+      
+ }
+
+ textarea[disabled="disabled"] {       
+    color: 	#000000 !important;    
+    background-color: #FFF !important;
+}
+  .ui-customgridwhite, .ui-customgridwhite  {	
+ 	background-color: #FFFFFF !important; 			
+	border-collapse: separate;
+    border-spacing: 0;
+    border: 1px dotted #929292;
+	padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    height: 25px;   
+ }
+  .ui-customgridwhitetittle, .ui-customgridwhitetittle  {	
+ 	background-color:#FFFFFF !important; 			
+	border-collapse: separate;
+    border-spacing: 0;
+    border: 1px  #DF0101 !important;
+    border-color:#DF0101 !important;
+	padding-top: 1px;
+    padding-right: 1px;
+    padding-bottom: 1px;
+    padding-left: 1px;
+    height: 25px;   
+ }
+ .ui-font80 {
+ 	font-size: 80% !important;
+ }
+ .ui-font90 {
+ 	font-size: 90% !important;
+ 	
+ }
+ .ui-width70 {
+ 	width: 70px;  
+ }
+ .ui-width75 {
+ 	width: 75px;  
+ }
+  .ui-width100 {
+ 	width: 100px;  
+ }
+ .ui-width110 {
+ 	width: 110px; 
+ 	text-align : center;  
+ }
+ .ui-width120 {
+ 	width: 120px; 
+ 	text-align : center; 
+ }
+ .ui-width150 {
+ 	width: 150px;  
+ }
+  .ui-width160 {
+ 	width: 160px;  
+ }
+ .ui-width220 {
+ 	width: 220px;  
+ }
+ .ui-height12 {
+ 	height: 12px;  
+ }
+ .ui-height50 {
+ 	height: 50px;  
+ }
+ .ui-height60 {
+ 	height: 60px;  
+ }
+ .ui-fontred {
+ 	color: 	#CC0606;
+ 	font-size: 97% !important;
+ 	font-weight: bold;
+ 	letter-spacing: 0.65px;
+ }
+
+/* increase fileupload button spacing between 'choose' and 'upload' */
+.ui-fileupload-buttonbar .ui-fileupload-choose {
+    margin-right: 3em;
+}
+.ui-highlight1 {
+   
+    background-color:#FBEFEF !important;
+}
+.ui-highlight2 {
+   
+    background-color:#ECF8E0 !important;
+}
+.ui-datatable-odd {
+    background: #ffffff;
+}
+
+.ui-datatable-even {
+    background: #F2F5F9;
+}
